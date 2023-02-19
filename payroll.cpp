@@ -334,6 +334,7 @@ class Interface:public editmenu,public signin{
 };
 
 int main(){
+    cout<<"Welcome to Payroll"<<endl;
     Interface i;
     //i.login();
     if(i.login()==true){
